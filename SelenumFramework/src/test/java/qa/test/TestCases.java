@@ -17,4 +17,10 @@ public class TestCases extends BaseTest{
       homePage.LogInbutton();
       loginPage.verifyLoginPageTitle();
 	}
+	
+	@Test
+	public void sampleSecondMethodForVerifingTitle() {
+      homePage.LogInbutton();
+      loginPage.verifyLoginPageTitle();
+	}
 }
