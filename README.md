@@ -1,2 +1,1 @@
-# Selenium-Java-TestNG-POM-ExtentReport
-Selenium-Java-TestNG-POM-ExtentReport
+Welcome to our project! This is a Selenium Automation Project made in Selenium, POM, TestNG, Extent Report. It allows users to quickly and easily automate any app. With this project, users can effortlessly run automation suite and present the HTML report. I hope you enjoy.
