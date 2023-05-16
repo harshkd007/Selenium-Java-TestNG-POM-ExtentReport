@@ -10,8 +10,8 @@
       <class name="qa.test.TestCases">
         <methods>
           <include name="beforeMethod"/>
-          <include name="sampleMethodForVerifingTitle"/>
           <include name="afterMethod"/>
+          <include name="HoverOverTheLeftPanel"/>
           <include name="beforeTestMethod"/>
           <include name="aftertest"/>
         </methods>

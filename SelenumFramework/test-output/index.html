@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Yogesh\eclipse-workspace\SelenumFramework\testng.xml</span>
+                    <span>C:\Harshproject\Selenium-Java-TestNG-POM-ExtentReport\SelenumFramework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="qa.test.TestCases" class="method navigator-link" hash-for-method="sampleMethodForVerifingTitle">sampleMethodForVerifingTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="qa.test.TestCases" class="method navigator-link" hash-for-method="verifyTheLogInFunctioality">verifyTheLogInFunctioality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -132,12 +137,19 @@
                   <span class="method-name">sampleMethodForVerifingTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheLogInFunctioality">
+                  </a> <!-- verifyTheLogInFunctioality -->
+                  <span class="method-name">verifyTheLogInFunctioality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Yogesh\eclipse-workspace\SelenumFramework\testng.xml</span>
+            <span class="header-content">C:\Harshproject\Selenium-Java-TestNG-POM-ExtentReport\SelenumFramework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -190,16 +202,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'sampleMethodForVerifingTitle')
+data.setCell(0, 1, 'verifyTheLogInFunctioality')
 data.setCell(0, 2, 'qa.test.TestCases')
-data.setCell(0, 3, 5732);
+data.setCell(0, 3, 6227);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sampleMethodForVerifingTitle')
+data.setCell(1, 2, 'qa.test.TestCases')
+data.setCell(1, 3, 5716);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -232,19 +248,31 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome, public void qa.test.TestCases.sampleMethodForVerifingTitle())</span>
-                <span class="method-start">485 ms</span>
+                <span class="method-start">604 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">sampleMethodForVerifingTitle</span>
-                <span class="method-start">8346 ms</span>
+                <span class="method-start">9527 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=sampleMethodForVerifingTitle status=SUCCESS method=TestCases.sampleMethodForVerifin...)</span>
-                <span class="method-start">14081 ms</span>
+                <span class="method-start">15249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(chrome, public void qa.test.TestCases.verifyTheLogInFunctioality())</span>
+                <span class="method-start">15753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheLogInFunctioality</span>
+                <span class="method-start">21549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyTheLogInFunctioality status=SUCCESS method=TestCases.verifyTheLogInFunctioali...)</span>
+                <span class="method-start">27784 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">aftertest</span>
-                <span class="method-start">14510 ms</span>
+                <span class="method-start">28173 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
