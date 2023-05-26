@@ -2,10 +2,10 @@ package pageObjects;
 
 public interface LoginPageElements {
 	
-	public String emailTextBoxId = "//input[@name='email']";
+	public String usernameTextBoxId = "//input[contains(@id,'user')]";
 	
-	public String passwordTextBoxId = "//input[@name='password']";
+	public String passwordTextBoxId = "//input[@id='password']";
 	
-	 public String loginButtonXPath = "//div[text()='Login']";
+	 public String loginButtonXPath = "//input[contains(@id,'login')]";
 
 }
