@@ -10,4 +10,8 @@ public class HomePagEvents {
 		elementFetch.getWebElement("XPATH", HomePageElements.logInButtonXpath).click();
 	}
 
+	public void RegisterForFree()
+	{
+		elementFetch.getWebElement("XPATH", HomePageElements.logInButtonXpath).click();
+	}
 }

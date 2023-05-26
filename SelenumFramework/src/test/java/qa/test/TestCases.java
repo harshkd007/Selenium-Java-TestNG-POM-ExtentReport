@@ -13,17 +13,15 @@ public class TestCases extends BaseTest{
 	LoginPageEvents loginPage = new LoginPageEvents();
 
 	@Test
-	public void sampleMethodForVerifingTitle() {
-		homePage.LogInbutton();
-		logger.info("Clicked on login button");
+	public void sampleMethodForVerifingTitle() throws InterruptedException {
+		Thread.sleep(4000);
 		loginPage.verifyLoginPageTitle();
 		logger.info("Verified the login page title");
 	}
 
 	@Test
-	public void verifyTheLogInFunctioality() {
-		homePage.LogInbutton();
-		logger.info("Clicked on login button");
+	public void verifyTheLogInFunctioality() throws InterruptedException {
+		Thread.sleep(4000);
 		loginPage.signIn();
 		logger.info("Successfully signed in");
 	}

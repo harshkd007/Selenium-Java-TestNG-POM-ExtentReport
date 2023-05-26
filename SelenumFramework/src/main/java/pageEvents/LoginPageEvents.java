@@ -11,14 +11,14 @@ public class LoginPageEvents {
 	ElementFetch elementFetch = new ElementFetch();
 	public String verifyLoginPageTitle()
 	{ 
-		Assert.assertTrue(BaseTest.driver.getTitle().equals("Cogmento CRM"));
+		Assert.assertTrue(BaseTest.driver.getTitle().contains("Swag Labs"), "Actual Title : "+BaseTest.driver.getTitle());
 		return BaseTest.driver.getTitle();
 	}
 	
 	public void signIn()
 	{ 
-		elementFetch.getWebElement("XPATH", LoginPageElements.emailTextBoxId).sendKeys("kdharsh@gmail.com");
-		elementFetch.getWebElement("XPATH", LoginPageElements.passwordTextBoxId).sendKeys("Asdf@1234");
+		elementFetch.getWebElement("XPATH", LoginPageElements.usernameTextBoxId).sendKeys("standard_user");
+		elementFetch.getWebElement("XPATH", LoginPageElements.passwordTextBoxId).sendKeys("secret_sauce");
 		elementFetch.getWebElement("XPATH", LoginPageElements.loginButtonXPath).click();
 	}
 
